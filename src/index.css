@@ -1,0 +1,41 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #f2f2f2;
+    padding: 1rem;
+}
+
+.tags {
+    width: 200px;
+}
+
+.images {
+    font-size: 0;
+}
+
+.image {
+    box-sizing: border-box;
+    border: solid 1px #ccc;
+    display: inline-block;
+    border-radius: 3px;
+    height: 130px;
+    padding: 8px;
+    margin: 8px;
+    width: 45%;
+}
+
+img {
+    display: inline-block;
+    border-radius: 3px;
+    position: absolute;
+    max-width: 140px;
+}
+
+.description {
+    display: inline-block;
+    padding-left: 148px;
+    font-size: 1rem;
+}
